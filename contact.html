@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Hezed | Contact</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Hamburger icon for mobile -->
+            <div class="menu-icon" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <ul id="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script>
+        // Function to toggle the menu visibility on mobile
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('show'); // Toggle the 'show' class to display or hide the menu
+        }
+    </script>
+
+    <div class="footer">
+        <div class="footer-h3">
+        <h1>I’m excited to collaborate<br> and work together<br> with everyone!</h3>
+        </div> 
+    
+        <div class="footer-text">
+            <h4>Email address:<br>hesedechon@gmail.com</h4>
+            <h4>My Github Page:<br><a href="https://github.com/Hezedechon" target="_blank">https://github.com/Hezedechon</a></h4>
+            <h4>My Socials:</h4>
+            <a href="#">
+            <img src="flogo.png" alt="flogo">
+            </a>    
+        </div>    
+</body>
+</html>
